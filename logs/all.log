@@ -1003,3 +1003,896 @@ ValueError: invalid literal for int() with base 10: '����_quant_login_out(�����
 2018-07-02 15:03:20,152 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 22513
 2018-07-02 15:03:44,373 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 253
 2018-07-02 15:03:46,343 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 27662
+2018-07-16 12:56:18,240 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2018-07-16 12:56:18,264 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2018-07-16 12:56:18,264 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2018-07-16 12:56:18,265 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2018-07-16 12:56:18,325 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2018-07-16 12:56:18,326 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2018-07-16 12:56:18,326 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2018-07-16 12:56:18,349 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2018-07-16 12:56:18,349 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2018-07-16 12:56:28,975 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-16 12:56:28,988 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2018-07-16 12:56:29,076 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2018-07-16 12:56:29,096 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2018-07-16 12:56:35,585 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-16 12:56:35,618 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-16 12:56:35,672 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2018-07-16 12:56:35,673 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-16 12:56:35,678 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2018-07-16 12:56:35,680 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-16 12:56:44,589 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26307
+2018-07-16 12:56:48,234 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17532
+2018-07-16 12:57:23,351 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 24
+2018-07-16 12:57:29,360 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26307
+2018-07-16 12:57:33,663 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25282
+2018-07-16 12:57:35,611 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26307
+2018-07-16 12:59:21,533 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26307
+2018-07-16 12:59:24,020 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 22801
+2018-07-16 12:59:26,957 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14444
+2018-07-16 12:59:29,226 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26307
+2018-07-16 12:59:31,641 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17532
+2018-07-16 12:59:55,105 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2018-07-16 12:59:55,180 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29310
+2018-07-16 13:00:19,024 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17532
+2018-07-16 13:00:21,936 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25545
+2018-07-16 13:00:23,866 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16191
+2018-07-16 13:00:35,728 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2018-07-16 13:00:35,749 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28090
+2018-07-16 13:00:48,620 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34176
+2018-07-16 13:01:18,995 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 7
+2018-07-16 13:01:20,428 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:01:20,429 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:07:59,232 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2018-07-16 13:08:09,546 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 7
+2018-07-16 13:08:11,521 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2018-07-16 13:08:11,545 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24607
+2018-07-16 13:08:11,742 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:08:17,035 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 28093
+2018-07-16 13:08:58,999 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:08:59,047 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34176
+2018-07-16 13:09:14,156 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/env_list/1/ HTTP/1.1" 200 17797
+2018-07-16 13:09:18,999 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/echo/ HTTP/1.1" 200 2301
+2018-07-16 13:09:24,495 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 24607
+2018-07-16 13:09:24,636 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:09:32,879 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2018-07-16 13:09:38,555 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:23:04,906 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24556
+2018-07-16 13:23:36,476 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:23:43,758 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/1/ HTTP/1.1" 200 39125
+2018-07-16 13:24:06,598 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:24:11,768 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24556
+2018-07-16 13:24:33,852 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 19275
+2018-07-16 13:24:34,056 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:24:40,535 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/suite_list/1/ HTTP/1.1" 200 23064
+2018-07-16 13:24:42,889 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_suite/ HTTP/1.1" 200 17804
+2018-07-16 13:24:50,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16530
+2018-07-16 13:25:00,614 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14444
+2018-07-16 13:25:06,172 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34176
+2018-07-16 13:25:09,171 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24556
+2018-07-16 13:30:16,016 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29310
+2018-07-16 13:30:20,357 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17532
+2018-07-16 13:30:22,644 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29310
+2018-07-16 13:30:25,682 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/project_list/1/ HTTP/1.1" 200 2
+2018-07-16 13:30:25,699 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26307
+2018-07-16 13:30:28,468 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25282
+2018-07-16 13:30:29,948 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 26307
+2018-07-16 13:30:31,382 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_project/ HTTP/1.1" 200 17532
+2018-07-16 13:31:21,227 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_project/ HTTP/1.1" 200 20
+2018-07-16 13:31:21,251 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/project_list/1/ HTTP/1.1" 200 29381
+2018-07-16 13:31:27,476 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 25577
+2018-07-16 13:31:29,206 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16207
+2018-07-16 13:31:53,180 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2018-07-16 13:31:53,201 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28143
+2018-07-16 13:31:59,237 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 13:32:07,515 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 19307
+2018-07-16 13:32:07,681 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:32:10,295 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24588
+2018-07-16 13:32:36,772 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_config/ HTTP/1.1" 200 6
+2018-07-16 13:32:45,843 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_config/ HTTP/1.1" 200 19
+2018-07-16 13:32:45,862 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 21108
+2018-07-16 13:32:46,087 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:32:50,221 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/2/ HTTP/1.1" 200 25869
+2018-07-16 13:39:15,269 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_config/ HTTP/1.1" 200 19
+2018-07-16 13:39:15,288 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 21108
+2018-07-16 13:39:15,503 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:39:18,874 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/2/ HTTP/1.1" 200 43551
+2018-07-16 13:39:28,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 21108
+2018-07-16 13:39:29,005 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:39:31,511 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 13:39:38,436 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 6
+2018-07-16 13:39:39,719 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:39:39,720 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2018-07-16 13:43:25,721 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 6
+2018-07-16 13:43:27,482 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2018-07-16 13:43:27,507 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 13:43:29,711 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:43:33,536 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 13:43:33,579 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 100510
+2018-07-16 13:44:12,323 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:44:15,487 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 13:44:15,523 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 100510
+2018-07-16 13:44:36,941 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:44:43,078 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 13:44:45,233 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 13:44:45,391 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:44:48,547 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 13:44:48,585 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 100510
+2018-07-16 13:44:55,345 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:45:06,827 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/3/ HTTP/1.1" 200 47523
+2018-07-16 13:45:20,733 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:45:20,744 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 13:45:21,170 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:48:19,397 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 13:48:19,612 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:48:26,825 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/3/ HTTP/1.1" 200 47523
+2018-07-16 13:48:52,795 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/2/ HTTP/1.1" 200 43551
+2018-07-16 13:49:12,161 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_config/ HTTP/1.1" 200 19
+2018-07-16 13:49:12,181 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 21108
+2018-07-16 13:49:12,408 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:49:13,807 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/2/ HTTP/1.1" 200 43563
+2018-07-16 13:49:26,800 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 13:49:27,022 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:49:28,134 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/3/ HTTP/1.1" 200 47523
+2018-07-16 13:49:46,448 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2018-07-16 13:49:46,471 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 13:49:46,692 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 13:49:49,492 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 13:49:49,528 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 100582
+2018-07-16 13:50:04,234 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 15:16:28,473 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/3/ HTTP/1.1" 200 47535
+2018-07-16 15:16:40,387 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 16:50:16,573 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 16:50:16,867 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 16:50:23,234 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 16:50:32,330 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 6
+2018-07-16 16:50:33,654 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2018-07-16 16:50:33,656 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 37
+2018-07-16 16:51:59,715 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 302 0
+2018-07-16 16:51:59,722 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-16 16:51:59,814 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2018-07-16 16:51:59,906 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2018-07-16 16:51:59,908 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2018-07-16 16:51:59,987 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2018-07-16 16:52:00,185 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-16 16:52:00,190 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-16 16:52:08,385 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('\x06')
+2018-07-16 16:52:08,386 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('Uã#LÖz®cJ\xadW\x9eÀv_ÁµuªJßj\x15À=\x06ú¡\x8aàz\x17\x00"::\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+2018-07-16 16:52:08,386 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2018-07-16 16:52:08,386 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2018-07-16 16:52:08,389 [django.server:124] [basehttp:log_message] [INFO]- code 400, message Bad request version ('::À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+2018-07-16 16:52:08,389 [django.server:107] [basehttp:log_message] [ERROR]- You're accessing the development server over HTTPS, but it only supports HTTP.
+
+2018-07-16 16:52:14,882 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-16 16:52:37,608 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 200 3877
+2018-07-16 16:52:48,471 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-16 16:52:48,500 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-16 16:52:48,543 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-16 16:52:48,546 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-16 16:52:48,547 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2018-07-16 16:52:48,548 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2018-07-16 16:53:03,988 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 16:53:04,228 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 17:24:59,703 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/3/ HTTP/1.1" 200 47535
+2018-07-16 17:44:39,536 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 17:44:43,314 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 17:52:02,603 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 25739
+2018-07-16 17:52:04,937 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 17:52:08,228 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 17:52:08,280 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 100485
+2018-07-16 17:57:09,323 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 17:57:11,942 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 18:00:00,053 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 6
+2018-07-16 18:00:01,957 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 37
+2018-07-16 18:00:01,957 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 15
+2018-07-16 18:00:38,539 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 6
+2018-07-16 18:00:40,570 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2018-07-16 18:00:40,600 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-16 18:00:40,833 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:00:47,731 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/4/ HTTP/1.1" 200 39064
+2018-07-16 18:01:04,123 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2018-07-16 18:01:04,147 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-16 18:01:04,372 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:01:07,687 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 21462
+2018-07-16 18:22:19,433 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:28:45,196 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 21108
+2018-07-16 18:28:47,439 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:28:52,323 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-16 18:29:01,238 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-16 18:29:01,415 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:29:07,205 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 21461
+2018-07-16 18:29:13,438 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:29:14,681 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/4/ HTTP/1.1" 200 39064
+2018-07-16 18:29:32,967 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2018-07-16 18:29:32,994 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-16 18:29:33,212 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:29:36,499 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 21496
+2018-07-16 18:29:50,236 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:29:54,030 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/4/ HTTP/1.1" 200 39064
+2018-07-16 18:30:13,950 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2018-07-16 18:30:13,972 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-16 18:30:14,188 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:30:16,892 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 21461
+2018-07-16 18:30:26,715 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:30:28,188 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/4/ HTTP/1.1" 200 40613
+2018-07-16 18:31:25,659 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2018-07-16 18:31:25,687 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-16 18:31:25,868 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:31:29,204 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 23581
+2018-07-16 18:39:16,582 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-16 18:39:25,734 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/periodictask/1/ HTTP/1.1" 200 16530
+2018-07-16 18:39:30,821 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_task/ HTTP/1.1" 200 19045
+2018-07-16 18:39:36,170 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_task/ HTTP/1.1" 200 6
+2018-07-16 18:49:34,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-16 18:49:49,420 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 302 0
+2018-07-16 18:49:49,460 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-16 18:50:09,175 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/log_out/ HTTP/1.1" 302 0
+2018-07-16 18:50:09,180 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-16 18:50:11,641 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2018-07-16 18:50:11,657 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2018-07-16 18:50:11,658 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2018-07-16 18:50:11,704 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2018-07-16 18:50:11,708 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2018-07-16 18:50:11,713 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2018-07-16 18:50:11,713 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2018-07-16 18:50:11,726 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2018-07-16 18:50:19,146 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2018-07-16 18:50:35,856 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-16 18:50:41,715 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-16 18:51:16,969 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-16 18:51:17,000 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-16 18:52:20,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14444
+2018-07-16 18:53:40,740 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2018-07-16 18:58:04,901 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2018-07-16 19:18:14,752 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14444
+2018-07-16 19:18:18,303 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-16 19:18:18,312 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-16 19:18:20,181 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 200 14444
+2018-07-16 19:18:20,197 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-16 19:18:20,426 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-16 19:18:20,435 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-17 10:12:37,023 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/report_list/1/ HTTP/1.1" 302 0
+2018-07-17 10:12:37,028 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-17 10:12:37,040 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 304 0
+2018-07-17 10:12:37,136 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 304 0
+2018-07-17 10:12:37,137 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 304 0
+2018-07-17 10:12:37,154 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 304 0
+2018-07-17 10:12:41,483 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-17 10:12:41,553 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2018-07-17 10:12:41,651 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-17 10:12:41,662 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-17 10:12:48,117 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-17 10:12:48,158 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-17 10:12:48,209 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 304 0
+2018-07-17 10:12:48,213 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:12:48,217 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+2018-07-17 10:12:48,226 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2018-07-17 10:12:51,775 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-17 10:12:51,812 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:12:51,825 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-17 10:12:55,966 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-17 10:12:55,970 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-17 10:12:59,676 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-17 10:12:59,867 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-17 10:40:57,095 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-17 10:40:57,128 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:40:57,402 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-17 10:40:57,560 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-17 10:40:57,571 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-17 10:41:11,416 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 28143
+2018-07-17 10:41:11,432 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:41:15,043 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16207
+2018-07-17 10:41:15,057 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:41:34,973 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2018-07-17 10:41:35,001 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 30655
+2018-07-17 10:41:35,016 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:41:45,110 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_module/ HTTP/1.1" 200 16207
+2018-07-17 10:41:45,124 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:41:55,194 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_module/ HTTP/1.1" 200 19
+2018-07-17 10:41:55,227 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/module_list/1/ HTTP/1.1" 200 33290
+2018-07-17 10:41:55,244 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:00,923 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-17 10:42:00,938 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:04,238 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-17 10:42:04,252 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:04,393 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-17 10:42:09,389 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-17 10:42:12,769 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 21977
+2018-07-17 10:42:12,784 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:12,976 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-17 10:42:14,942 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 28220
+2018-07-17 10:42:14,958 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:15,228 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-17 10:42:18,051 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 21977
+2018-07-17 10:42:18,064 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:18,206 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-17 10:42:21,024 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 21977
+2018-07-17 10:42:21,038 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:21,160 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-17 10:42:23,300 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 28220
+2018-07-17 10:42:23,313 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 10:42:23,452 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-17 15:01:34,251 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 28220
+2018-07-17 15:01:34,277 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-17 15:01:34,503 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-17 15:01:34,666 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-17 15:01:34,683 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:46:23,682 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/test_list/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:46:23,831 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/test_list/1/ HTTP/1.1" 500 85033
+2018-07-18 08:46:24,298 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:46:24,305 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:46:26,614 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/test_list/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:46:26,645 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/test_list/1/ HTTP/1.1" 500 85034
+2018-07-18 08:46:26,903 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:46:26,924 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:46:33,342 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:46:33,343 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2366
+2018-07-18 08:46:36,095 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:46:36,096 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2366
+2018-07-18 08:46:38,661 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:46:38,661 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2366
+2018-07-18 08:49:12,211 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:49:12,212 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2366
+2018-07-18 08:49:12,378 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:49:12,382 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:49:14,322 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:49:14,323 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2366
+2018-07-18 08:49:14,423 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:49:14,426 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:49:16,073 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:49:16,074 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2366
+2018-07-18 08:49:16,177 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:49:16,180 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:50:25,854 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:50:25,855 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2366
+2018-07-18 08:50:26,534 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:50:26,542 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:50:42,591 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:50:42,762 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/register/ HTTP/1.1" 500 85287
+2018-07-18 08:50:44,081 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:50:44,089 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:51:27,758 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:51:27,819 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/register/ HTTP/1.1" 500 85287
+2018-07-18 08:54:32,775 [django.request:93] [base:get_response] [WARNING]- Not Found: /api/register/ 
+2018-07-18 08:54:32,811 [django.server:124] [basehttp:log_message] [WARNING]- "GET /api/register/%20 HTTP/1.1" 404 2427
+2018-07-18 08:55:50,139 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:55:50,175 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/register/ HTTP/1.1" 500 85422
+2018-07-18 08:55:50,419 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:55:50,429 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:58:37,109 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:58:37,140 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/register/ HTTP/1.1" 500 85422
+2018-07-18 08:58:37,431 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:58:37,437 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:59:06,598 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 12, in <module>
+    from dwebsocket import accept_websocket
+ModuleNotFoundError: No module named 'dwebsocket'
+2018-07-18 08:59:06,628 [django.server:124] [basehttp:log_message] [ERROR]- "GET /api/register/ HTTP/1.1" 500 87271
+2018-07-18 08:59:26,020 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/register/ HTTP/1.1" 200 8108
+2018-07-18 08:59:26,037 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/logo.png HTTP/1.1" 200 11481
+2018-07-18 08:59:26,037 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/css-index.css HTTP/1.1" 200 20060
+2018-07-18 08:59:26,106 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/custom.js HTTP/1.1" 200 5770
+2018-07-18 08:59:26,107 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/owl.carousel.min.js HTTP/1.1" 200 23890
+2018-07-18 08:59:26,108 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/jquery.sticky.js HTTP/1.1" 200 6965
+2018-07-18 08:59:26,109 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/wow.min.js HTTP/1.1" 200 6299
+2018-07-18 08:59:26,316 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/loading.GIF HTTP/1.1" 200 63798
+2018-07-18 08:59:26,317 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2018-07-18 08:59:30,725 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-18 08:59:30,735 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2018-07-18 08:59:30,781 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2018-07-18 08:59:30,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2018-07-18 08:59:36,385 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-18 08:59:36,445 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-18 08:59:36,475 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 08:59:36,484 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2018-07-18 08:59:36,485 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-18 08:59:36,487 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2018-07-18 08:59:39,722 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-18 08:59:39,744 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 08:59:40,527 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 08:59:40,541 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 08:59:44,299 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-18 08:59:44,314 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 08:59:44,517 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 09:17:44,615 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-18 09:17:44,661 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 09:17:44,895 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 09:17:45,057 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 09:17:45,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 15:35:11,682 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 302 0
+2018-07-18 15:35:11,695 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-18 15:35:11,803 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2018-07-18 15:35:11,948 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 15:35:11,957 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 15:35:24,427 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-18 15:35:24,459 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-18 15:35:24,488 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 15:35:24,493 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-18 15:35:32,214 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28228
+2018-07-18 15:35:32,230 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 15:35:32,504 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 15:53:45,503 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-18 15:53:45,526 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 15:53:48,196 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-18 15:53:50,749 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 15:53:50,750 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 15:54:00,472 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24588
+2018-07-18 15:54:00,487 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 15:54:19,731 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_config/ HTTP/1.1" 200 53
+2018-07-18 15:54:26,835 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_config/ HTTP/1.1" 200 19
+2018-07-18 15:54:26,899 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 15:54:26,914 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 15:54:27,180 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 15:54:30,487 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 15:54:30,502 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 15:54:30,645 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 15:54:33,825 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/5/ HTTP/1.1" 200 25890
+2018-07-18 15:54:33,839 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:01:49,128 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24588
+2018-07-18 16:01:49,150 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:01:53,161 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/5/ HTTP/1.1" 200 25890
+2018-07-18 16:01:53,176 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:06:42,002 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_config/ HTTP/1.1" 200 19
+2018-07-18 16:06:42,022 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:06:42,038 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:06:42,232 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:06:46,535 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-18 16:06:46,551 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:06:49,218 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-18 16:06:50,741 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:06:50,743 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 27
+2018-07-18 16:10:29,424 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 53
+2018-07-18 16:10:31,913 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 17
+2018-07-18 16:10:31,935 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 31831
+2018-07-18 16:10:31,956 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:10:32,162 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:10:45,159 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/test_list/1/ HTTP/1.1" 200 2
+2018-07-18 16:10:45,180 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28249
+2018-07-18 16:10:45,204 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:10:45,385 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:10:49,355 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-18 16:10:49,403 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 102557
+2018-07-18 16:16:10,988 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28249
+2018-07-18 16:16:11,023 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:16:11,029 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-18 16:16:12,337 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:16:19,654 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/run_test/ HTTP/1.1" 200 23582
+2018-07-18 16:17:08,270 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 28249
+2018-07-18 16:17:08,311 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:17:08,315 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-18 16:17:08,863 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:17:16,063 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 47565
+2018-07-18 16:17:16,078 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:17:43,108 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2018-07-18 16:17:43,187 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:17:43,215 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:17:43,429 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:17:46,860 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-18 16:17:46,897 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 96042
+2018-07-18 16:17:55,103 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:17:55,132 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:17:55,138 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-18 16:17:55,651 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:17:57,187 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-18 16:17:57,204 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:18:19,781 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:18:19,797 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:18:19,998 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:18:27,337 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-18 16:18:27,353 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:18:32,844 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:18:32,858 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:18:33,072 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:18:35,324 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/5/ HTTP/1.1" 200 44428
+2018-07-18 16:18:35,338 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:18:39,706 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:18:39,720 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:18:39,867 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:18:43,295 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:18:43,309 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:18:43,458 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:18:49,116 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-18 16:18:49,130 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:07,411 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-18 16:19:07,431 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:07,811 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-18 16:19:07,818 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-18 16:19:22,369 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:19:22,384 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:22,585 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:19:22,612 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:19:22,850 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:19:28,529 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/2/ HTTP/1.1" 200 43563
+2018-07-18 16:19:28,551 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:30,805 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:19:30,819 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:30,969 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:19:32,937 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_config/2/ HTTP/1.1" 200 43563
+2018-07-18 16:19:32,951 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:40,311 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:19:40,324 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:40,477 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:19:46,337 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:19:46,352 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:19:46,509 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:19:50,381 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-18 16:19:50,396 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:12,998 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/edit_case/ HTTP/1.1" 200 17
+2018-07-18 16:20:13,025 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:20:13,042 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:13,246 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:20:17,328 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:20:17,345 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:17,501 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:20:21,594 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_config/ HTTP/1.1" 200 24588
+2018-07-18 16:20:21,623 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:24,668 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:20:24,683 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:24,848 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-18 16:20:30,349 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 22756
+2018-07-18 16:20:30,364 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:30,591 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:20:41,908 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/config_list/1/ HTTP/1.1" 200 2
+2018-07-18 16:20:41,933 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 24386
+2018-07-18 16:20:41,965 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:42,189 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:20:45,369 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:20:45,383 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:20:45,533 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:20:46,624 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-18 16:20:46,637 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:21:00,819 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-18 16:21:00,835 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-18 16:21:01,036 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-18 16:21:01,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/config_list/1/ HTTP/1.1" 200 24386
+2018-07-18 16:21:01,227 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-19 09:35:51,045 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-19 09:35:51,086 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/style.css HTTP/1.1" 200 1638
+2018-07-19 09:35:51,185 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/main_bg.png HTTP/1.1" 200 2801
+2018-07-19 09:35:51,186 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2018-07-19 09:35:51,263 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/iconfont/fonts/icomoon.ttf?u4m6fy HTTP/1.1" 200 6900
+2018-07-19 09:35:57,942 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-19 09:35:57,973 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-19 09:35:58,011 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 200 1004
+2018-07-19 09:35:58,014 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-19 09:35:58,015 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 200 13209
+2018-07-19 09:35:58,014 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-19 09:36:04,061 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/add_case/ HTTP/1.1" 200 34224
+2018-07-19 09:36:11,746 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-19 09:36:11,921 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-19 09:36:15,250 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-19 09:36:15,389 [django.server:124] [basehttp:log_message] [ERROR]- "POST /api/run_test/ HTTP/1.1" 500 92405
+2018-07-19 13:53:38,818 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 302 0
+2018-07-19 13:53:38,926 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1874
+2018-07-19 13:53:38,983 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+2018-07-19 13:53:38,983 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/base.css HTTP/1.1" 200 16106
+2018-07-19 13:53:38,984 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:53:39,171 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2018-07-19 13:53:39,247 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2018-07-19 13:53:39,249 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2018-07-19 13:53:39,249 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2018-07-19 13:53:49,744 [django.server:124] [basehttp:log_message] [INFO]- "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+2018-07-19 13:53:49,777 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:53:49,791 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:53:49,796 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+2018-07-19 13:53:49,885 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+2018-07-19 13:53:49,886 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+2018-07-19 13:53:49,887 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+2018-07-19 13:53:55,053 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/moduleinfo/ HTTP/1.1" 200 8750
+2018-07-19 13:53:55,073 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+2018-07-19 13:53:55,090 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2018-07-19 13:53:55,102 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:53:55,104 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6897
+2018-07-19 13:53:55,110 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+2018-07-19 13:53:55,125 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/core.js HTTP/1.1" 200 7134
+2018-07-19 13:53:55,128 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+2018-07-19 13:53:55,133 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/actions.js HTTP/1.1" 200 6502
+2018-07-19 13:53:55,133 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+2018-07-19 13:53:55,146 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2018-07-19 13:53:55,147 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+2018-07-19 13:53:55,148 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:53:55,203 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+2018-07-19 13:53:55,204 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+2018-07-19 13:54:01,100 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:54:01,111 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:54:02,656 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/envinfo/ HTTP/1.1" 200 4059
+2018-07-19 13:54:02,691 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2018-07-19 13:54:02,698 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2018-07-19 13:54:02,700 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:54:02,716 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:54:04,826 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:54:04,837 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:54:06,840 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/testcaseinfo/ HTTP/1.1" 200 16831
+2018-07-19 13:54:06,866 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+2018-07-19 13:54:06,877 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2018-07-19 13:54:06,879 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2018-07-19 13:54:06,894 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:54:06,916 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:55:18,880 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:55:18,892 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:21,325 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/userinfo/ HTTP/1.1" 200 7729
+2018-07-19 13:55:21,351 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:21,357 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2018-07-19 13:55:21,357 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2018-07-19 13:55:21,377 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:55:28,648 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:55:28,659 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:31,448 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ApiManager/projectinfo/ HTTP/1.1" 200 7746
+2018-07-19 13:55:31,472 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2018-07-19 13:55:31,481 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:31,483 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2018-07-19 13:55:31,483 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729
+2018-07-19 13:55:31,498 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:55:33,592 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:55:33,602 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:35,610 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/djcelery/crontabschedule/ HTTP/1.1" 200 4486
+2018-07-19 13:55:35,633 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+2018-07-19 13:55:35,653 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:35,655 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+2018-07-19 13:55:35,677 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:55:37,344 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:55:37,355 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:40,389 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/djcelery/workerstate/ HTTP/1.1" 200 3284
+2018-07-19 13:55:40,417 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:55:42,205 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:55:42,216 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:45,219 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/djcelery/workerstate/add/ HTTP/1.1" 200 4502
+2018-07-19 13:55:45,232 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+2018-07-19 13:55:45,233 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+2018-07-19 13:55:45,237 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+2018-07-19 13:55:45,256 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/jsi18n/ HTTP/1.1" 200 7684
+2018-07-19 13:55:45,287 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+2018-07-19 13:55:50,351 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:55:50,363 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:55:56,034 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-19 13:55:56,036 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2365
+2018-07-19 13:56:01,015 [django.server:124] [basehttp:log_message] [INFO]- "GET /admin/ HTTP/1.1" 200 9162
+2018-07-19 13:56:01,026 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894
+2018-07-19 13:56:01,123 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2018-07-19 13:56:01,123 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2018-07-19 13:56:01,123 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2018-07-19 13:56:04,821 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-19 13:56:07,390 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3877
+2018-07-19 13:56:07,473 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/bg.jpg HTTP/1.1" 200 135990
+2018-07-19 13:56:07,590 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-19 13:56:07,597 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-19 13:56:18,002 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2018-07-19 13:56:18,040 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-19 13:56:20,365 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18356
+2018-07-19 13:56:20,414 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-19 13:56:20,416 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 200 20844
+2018-07-19 13:56:21,986 [django.server:124] [basehttp:log_message] [INFO]- "GET /favicon.ico HTTP/1.1" 302 0
+2018-07-19 13:56:21,990 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/img/favicon.ico HTTP/1.1" 200 67646
+2018-07-19 13:56:29,356 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/test_list/1/ HTTP/1.1" 200 27160
+2018-07-19 13:56:29,373 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660
+2018-07-19 13:56:29,640 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/add_case/ HTTP/1.1" 200 0
+2018-07-19 13:56:32,037 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/edit_case/6/ HTTP/1.1" 200 46746
+2018-07-19 13:56:32,051 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 200 19660

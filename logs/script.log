@@ -437,3 +437,287 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '����_quant_login_out(����ǳ�)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang�˳�
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang ��¼�ɹ�
+2018-07-16 12:56:35,580 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
+2018-07-16 12:59:55,104 [HttpRunnerManager:58] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'test', 'responsible_name': 'mars', 'test_user': 'mars', 'dev_user': 'mars', 'publish_app': 'geektime.org', 'simple_desc': '', 'other_desc': ''}
+2018-07-16 13:00:35,727 [HttpRunnerManager:106] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'test', 'test_user': 'mars', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2018-07-16 13:08:11,521 [HttpRunnerManager:150] [operation:add_case_data] [INFO]- 查询充值记录用例添加成功: {'test': {'request': {'url': 'http://10.2.0.96/balance/record/index?user_id=1042552&is_ios=1', 'method': 'GET', 'headers': {'cache-control': 'no-cache', 'content-type': 'application/json', 'host': 'balance.geekbang.org', 'postman-token': '9c33c1a6-b9da-a0ec-3b96-fb57294dd844'}}, 'name': '查询充值记录'}}
+2018-07-16 13:31:21,227 [HttpRunnerManager:58] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': '极客时间', 'responsible_name': 'mars', 'test_user': 'mars', 'dev_user': 'mars', 'publish_app': 'time.geekbang.org', 'simple_desc': '', 'other_desc': ''}
+2018-07-16 13:31:53,179 [HttpRunnerManager:106] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'IOS', 'test_user': 'mars', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (2)>}
+2018-07-16 13:32:45,842 [HttpRunnerManager:188] [operation:add_config_data] [INFO]- 我的接口配置添加成功: {'config': {'request': {}, 'name': '我的接口'}}
+2018-07-16 13:39:15,268 [HttpRunnerManager:197] [operation:add_config_data] [INFO]- 我的接口配置更新成功: {'config': {'request': {'data': {'base_url': ''}, 'headers': {'User-Agent': '$User_Agent', 'X-GEEK-APP-NAME': 'time', 'X-GEEK-DEVICE-MODEL': 'iPhone7,1', 'X-GEEK-OS-VER': '12.0', 'X-GEEK-VER-NAME': '1.1.7', 'Device-Id': '$Device_Id', 'Device-Token': '$Device_Token', 'Content-Type': 'application/json', 'X-GEEK-OS-PLATFOR': 'iOS', 'Referer': 'https://account.geekbang.org/'}}, 'name': '我的接口', 'variables': [{'Device_Id': '${device_id()}'}, {'User_Agent': 'iPhone7,1(iOS/12.0) GeekbangApp(Zeus/1.1.7) Weex/0.16.1 ExternalUA 1242x2208'}, {'Device_Token': '${get_device_token($User_Agent,$Device_Id)}'}, {'country': '86'}, {'cellphone': '13520690691'}, {'password': 'a123456'}]}}
+2018-07-16 13:43:27,481 [HttpRunnerManager:150] [operation:add_case_data] [INFO]- /account/ticket/login 登录成功用例添加成功: {'test': {'request': {'url': 'https://account.geekbang.org/account/ticket/login', 'method': 'POST', 'json': {'country': '$country', 'cellphone': '$cellphone', 'password': '$password', 'platform': 1, 'appid': 1, 'captcha': ''}, 'headers': {'Ticket': ''}}, 'name': '/account/ticket/login 登录成功', 'validate': [{'comparator': 'equals', 'check': 'status_code', 'expected': '200'}, {'comparator': 'equals', 'check': 'content.code', 'expected': '0'}], 'extract': [{'ticket': 'content.data.ticket'}]}}
+2018-07-16 13:43:33,536 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 13:44:15,487 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 13:44:48,547 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 13:49:12,160 [HttpRunnerManager:197] [operation:add_config_data] [INFO]- 我的接口配置更新成功: {'config': {'request': {'data': {'base_url': '""'}, 'headers': {'User-Agent': '$User_Agent', 'X-GEEK-APP-NAME': 'time', 'X-GEEK-DEVICE-MODEL': 'iPhone7,1', 'X-GEEK-OS-VER': '12.0', 'X-GEEK-VER-NAME': '1.1.7', 'Device-Id': '$Device_Id', 'Device-Token': '$Device_Token', 'Content-Type': 'application/json', 'X-GEEK-OS-PLATFOR': 'iOS', 'Referer': 'https://account.geekbang.org/'}}, 'name': '我的接口', 'variables': [{'Device_Id': '${device_id()}'}, {'User_Agent': 'iPhone7,1(iOS/12.0) GeekbangApp(Zeus/1.1.7) Weex/0.16.1 ExternalUA 1242x2208'}, {'Device_Token': '${get_device_token($User_Agent,$Device_Id)}'}, {'country': '86'}, {'cellphone': '13520690691'}, {'password': 'a123456'}]}}
+2018-07-16 13:49:46,447 [HttpRunnerManager:159] [operation:add_case_data] [INFO]- /account/ticket/login 登录成功用例更新成功: {'test': {'request': {'url': 'https://account.geekbang.org/account/ticket/login', 'method': 'POST', 'json': {'country': '$country', 'cellphone': '$cellphone', 'password': '$password', 'platform': 1, 'appid': 1, 'captcha': ''}, 'headers': {'Ticket': '""'}}, 'name': '/account/ticket/login 登录成功', 'validate': [{'comparator': 'equals', 'check': 'status_code', 'expected': '200'}, {'comparator': 'equals', 'check': 'content.code', 'expected': '0'}], 'extract': [{'ticket': 'content.data.ticket'}]}}
+2018-07-16 13:49:49,492 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 16:52:37,598 [HttpRunnerManager:50] [views:login] [INFO]- mars 登录失败, 请检查用户名或者密码
+2018-07-16 16:52:48,466 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
+2018-07-16 17:52:08,228 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-16 18:00:40,568 [HttpRunnerManager:150] [operation:add_case_data] [INFO]- 测试环境充值用例添加成功: {'test': {'request': {'url': ' http://10.2.0.96/balance/amount/update', 'method': 'POST', 'json': {'user_id': '1000190', 'sn': '1000190001', 'channel': 'iap', 'is_ios': 1, 'amount': 1000, 'remark': '测试:IOS应用内充值10元'}, 'headers': {'cache-control': 'no-cache', 'content-type': 'application/json', 'host': ' balance.geekbang.org', 'postman-token': '9c33c1a6-b9da-a0ec-3b96-fb57294dd844'}}, 'name': '测试环境充值'}}
+2018-07-16 18:01:04,122 [HttpRunnerManager:159] [operation:add_case_data] [INFO]- 测试环境充值用例更新成功: {'test': {'request': {'url': ' http://10.2.0.96/balance/amount/update', 'method': 'POST', 'json': {'user_id': '1000190', 'sn': '1000190025', 'channel': 'iap', 'is_ios': 1, 'amount': 1000, 'remark': '测试:IOS应用内充值10元'}, 'headers': {'cache-control': 'no-cache', 'content-type': 'application/json', 'host': ' balance.geekbang.org', 'postman-token': '9c33c1a6-b9da-a0ec-3b96-fb57294dd844'}}, 'name': '测试环境充值'}}
+2018-07-16 18:29:32,966 [HttpRunnerManager:159] [operation:add_case_data] [INFO]- 测试环境充值用例更新成功: {'test': {'request': {'url': ' http://10.2.0.96/balance/amount/update', 'method': 'POST', 'json': {'user_id': '1000190', 'sn': '1000190122', 'channel': 'iap', 'is_ios': 1, 'amount': 1000, 'remark': '测试:IOS应用内充值10元'}, 'headers': {'cache-control': 'no-cache', 'content-type': 'application/json', 'host': ' balance.geekbang.org', 'postman-token': '9c33c1a6-b9da-a0ec-3b96-fb57294dd844'}}, 'name': '测试环境充值'}}
+2018-07-16 18:30:13,949 [HttpRunnerManager:159] [operation:add_case_data] [INFO]- 测试环境充值用例更新成功: {'test': {'request': {'url': ' http://10.2.0.96/balance/amount/update', 'method': 'POST', 'json': {'user_id': '1000190', 'sn': '1000190122', 'channel': 'iap', 'is_ios': 1, 'amount': 1000, 'remark': '测试:IOS应用内充值10元'}, 'headers': {'cache-control': 'no-cache', 'content-type': 'application/json', 'host': ' balance.geekbang.org', 'postman-token': '9c33c1a6-b9da-a0ec-3b96-fb57294dd844'}}, 'name': '测试环境充值', 'variables': [{'Ticket': '""'}]}}
+2018-07-16 18:31:25,658 [HttpRunnerManager:159] [operation:add_case_data] [INFO]- 测试环境充值用例更新成功: {'test': {'request': {'url': ' http://10.2.0.96/balance/amount/update', 'method': 'POST', 'json': {'user_id': '1000190', 'sn': '1000190122', 'channel': 'iap', 'is_ios': 1, 'amount': 1000, 'remark': '测试:IOS应用内充值10元'}, 'headers': {'cache-control': 'no-cache', 'content-type': 'application/json', 'host': ' balance.geekbang.org', 'postman-token': '9c33c1a6-b9da-a0ec-3b96-fb57294dd844'}}, 'name': '测试环境充值', 'validate': [{'comparator': 'equals', 'check': 'Code', 'expected': '0'}], 'extract': [{}]}}
+2018-07-16 18:50:09,165 [HttpRunnerManager:78] [views:log_out] [INFO]- test3退出
+2018-07-16 18:51:16,963 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
+2018-07-17 10:12:48,112 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
+2018-07-17 10:41:34,972 [HttpRunnerManager:106] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'Android', 'test_user': 'mars', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (2)>}
+2018-07-17 10:41:55,194 [HttpRunnerManager:106] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': '每日一课', 'test_user': 'mars', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (2)>}
+2018-07-18 08:46:23,682 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/test_list/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:46:26,614 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/test_list/1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:46:33,342 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:46:36,095 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:46:38,661 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:49:12,211 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:49:14,322 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:49:16,073 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:50:25,854 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-18 08:50:42,591 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:51:27,758 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:54:32,775 [django.request:93] [base:get_response] [WARNING]- Not Found: /api/register/ 
+2018-07-18 08:55:50,139 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:58:37,109 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 8, in <module>
+    import paramiko
+ModuleNotFoundError: No module named 'paramiko'
+2018-07-18 08:59:06,598 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/register/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 10, in process
+    app = __import__("%s.views" % app)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 12, in <module>
+    from dwebsocket import accept_websocket
+ModuleNotFoundError: No module named 'dwebsocket'
+2018-07-18 08:59:36,374 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
+2018-07-18 15:35:24,422 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
+2018-07-18 15:54:26,833 [HttpRunnerManager:188] [operation:add_config_data] [INFO]- 每日一课公共header配置添加成功: {'config': {'request': {}, 'name': '每日一课公共header'}}
+2018-07-18 16:06:42,000 [HttpRunnerManager:197] [operation:add_config_data] [INFO]- 每日一课公共header配置更新成功: {'config': {'request': {'headers': {'User-Agent': '$User_Agent', 'X-GEEK-APP-NAME': 'time', 'X-GEEK-DEVICE-MODEL': 'iPhone7,1', 'X-GEEK-OS-VE': '12.0', 'X-GEEK-VER-NAME': '1.1.7', 'Device-Id': '$Device_Id', 'Device-Token': '$Device_Token', 'Content-Type': 'application/json', 'X-GEEK-OS-PLATFORM': 'iOS', 'X-GEEK-OS-NAME': 'iOS', 'Referer': 'https://account.geekbang.org/'}}, 'name': '每日一课公共header', 'variables': [{'Device_Id': 'a8b0a886-85b2-11e8-ab33-8c8590ce3347'}, {'User_Agent': 'iPhone7,1(iOS/12.0) GeekbangApp(Zeus/1.1.7) Weex/0.16.1 ExternalUA 1242x2208'}, {'Device_Token': '157bf656bc08c016db58b30268800d45dc1d9957'}, {'country': '86'}, {'cellphone': '13520690691'}, {'password': 'a123456'}, {'cookie': '_ga=GA1.2.1627142084.1531207994; _gat=1; _gid=GA1.2.1272984191.1531207994; GCID=a8b0a886-85b2-11e8-ab33-8c8590ce3347; GCESS=BAcEe56KDQwBAQYEJGH0tQUEgMYTAAsCBAAJAQEIAQEBBHjoDwADBL0ZR1sCBL0ZR1sEBCAcAAAKBAAAAAA-'}]}}
+2018-07-18 16:10:31,912 [HttpRunnerManager:150] [operation:add_case_data] [INFO]- /account/ticket/login 登录成功用例添加成功: {'test': {'request': {'url': 'https://account.geekbang.org/account/ticket/login', 'method': 'POST', 'json': {'country': '$country', 'cellphone': '$cellphone', 'password': '$password', 'platform': 1, 'appid': 1, 'captcha': ''}, 'headers': {'Ticket': ''}}, 'name': '/account/ticket/login 登录成功', 'validate': [{'comparator': 'equals', 'check': 'status_code', 'expected': '200'}, {'comparator': 'equals', 'check': 'content.code', 'expected': '0'}], 'extract': [{'ticket': 'content.data.ticket'}]}}
+2018-07-18 16:10:49,355 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-18 16:17:43,107 [HttpRunnerManager:159] [operation:add_case_data] [INFO]- /account/ticket/login 登录成功用例更新成功: {'test': {'request': {'url': 'https://account.geekbang.org/account/ticket/login', 'method': 'POST', 'json': {'country': '$country', 'cellphone': '$cellphone', 'password': '$password', 'platform': 1, 'appid': 1, 'captcha': ''}, 'headers': {'Ticket': ''}}, 'name': '/account/ticket/login 登录成功', 'validate': [{'comparator': 'equals', 'check': 'status_code', 'expected': '200'}, {'comparator': 'equals', 'check': 'content.code', 'expected': '0'}], 'extract': [{'ticket': 'content.data.ticket'}]}}
+2018-07-18 16:17:46,860 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-18 16:20:12,996 [HttpRunnerManager:159] [operation:add_case_data] [INFO]- /account/ticket/login 登录成功用例更新成功: {'test': {'request': {'url': 'https://account.geekbang.org/account/ticket/login', 'method': 'POST', 'json': {'country': '$country', 'cellphone': '$cellphone', 'password': '$password', 'platform': 1, 'appid': 1, 'captcha': ''}, 'headers': {'Ticket': ''}}, 'name': '/account/ticket/login 登录成功', 'validate': [{'comparator': 'equals', 'check': 'status_code', 'expected': '200'}, {'comparator': 'equals', 'check': 'content.code', 'expected': '0'}], 'extract': [{'ticket': 'content.data.ticket'}]}}
+2018-07-19 09:35:57,936 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
+2018-07-19 09:36:15,250 [django.request:118] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /api/run_test/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/HttpRunnerManager/activator.py", line 15, in process
+    result = fun(request, index) if index else fun(request)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/views.py", line 239, in run_test
+    run_test_by_type(id, base_url, testcase_dir_path, type)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 165, in run_test_by_type
+    run_by_single(id, base_url, path)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/runner.py", line 75, in run_by_single
+    dump_yaml_file(os.path.join(testcase_dir_path, name + '.yml'), testcase_list)
+  File "/Users/liuchao/PycharmProjects/HttpRunnerManager/ApiManager/utils/testcase.py", line 20, in dump_yaml_file
+    with io.open(yaml_file, 'w', encoding='utf-8') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/account/ticket/login 登录成功.yml'
+2018-07-19 13:55:56,034 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2018-07-19 13:56:17,992 [HttpRunnerManager:45] [views:login] [INFO]- test3 登录成功
